@@ -1,0 +1,1 @@
+os.execute("/var/cache_purge.sh " .. ngx.var.request_uri)
